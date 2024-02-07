@@ -3,12 +3,12 @@
   "rules": {
     "no-console": 1
   },
-  "plugin": ["import"],
-  "parserOption": {
+  "plugins": ["import"],
+  "parserOptions": {
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "env":{
+  "env": {
     "es6": true,
     "browser": true,
     "node": true
