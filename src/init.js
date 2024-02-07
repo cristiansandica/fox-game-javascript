@@ -17,7 +17,7 @@ async function init() {
       nextTimeToTick = now + TICK_RATE;
     }
 
-    requestAnimationFrame(nextAnimationFrame); //
+    requestAnimationFrame(nextAnimationFrame);
   }
 
   requestAnimationFrame(nextAnimationFrame);
